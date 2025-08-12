@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #1E3A8A;
+  background-color: #4CAF50;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   z-index: 1000;
 }
@@ -21,7 +21,7 @@
 }
 
 #navbar ul li a {
-  color: #A5B4FC;
+  color: #A5D6A7;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1em;
@@ -29,26 +29,26 @@
 }
 
 #navbar ul li a:hover {
-  color: #93C5FD;
+  color: #81C784;
 }
 
 body {
   padding-top: 60px;
-  background-color: #EFF6FF;
+  background-color: #F1F8E9;
 }
 
 #contato {
   max-width: 800px;
   margin: 40px auto 60px auto;
-  background: #E0F2FE;
+  background: #C8E6C9;
   padding: 30px 25px;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(50, 100, 150, 0.15);
 }
 
 #contato h2 {
-  color: #1E40AF;
-  border-bottom: 3px solid #1D4ED8;
+  color: #388E3C;
+  border-bottom: 3px solid #1B5E20;
   padding-bottom: 8px;
   margin-bottom: 20px;
   font-size: 1.9em;
@@ -56,26 +56,26 @@ body {
 }
 
 #contato p {
-  color: #3B82F6;
+  color: #388E3C;
   font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
 }
 
 #contato a {
-  color: #1E3A8A;
+  color: #1B5E20;
   text-decoration: underline;
 }
 
 .cartas {
-  display: flex;
-  flex-direction: column; 
-  gap: 30px; 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
   padding: 40px;
 }
 
 .carta {
-  background-color: #3B82F6;
+  background-color: #81C784;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -85,8 +85,8 @@ body {
 }
 
 .carta.link {
-  background-color: #1D4ED8;
-  color: #E0F2FE;
+  background-color: #388E3C;
+  color: #E8F5E9;
   display: inline-block;
   margin-top: 10px;
   padding: 12px 24px;
